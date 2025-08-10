@@ -39,7 +39,7 @@ cd /tmp
 rm -rf streampanel*
 
 # Prenesi z zadnjo verzijo iz GitHub
-curl -L -o streampanel.zip "https://github.com/streampanel/streampanel-pro/releases/latest/download/streampanel-pro.zip"
+curl -L -o streampanel.zip "https://github.com/may5ra/neo/archive/refs/heads/main.zip"
 unzip streampanel.zip
 mv streampanel-pro/* $INSTALL_DIR/
 chmod -R 755 $INSTALL_DIR
